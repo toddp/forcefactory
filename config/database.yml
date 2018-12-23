@@ -16,9 +16,9 @@ development:
   adapter: postgresql
   encoding: unicode
   database: forcefactory_development
-  pool: 5
-  username: forcefactory
-  password: forcefactory
+  #pool: 5
+  #username: forcefactory
+  #password: forcefactory
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -42,14 +42,14 @@ test:
   adapter: postgresql
   encoding: unicode
   database: forcefactory_test
-  pool: 5
-  username: forcefactory
-  password:
+  #pool: 5
+  #username: forcefactory
+  #password:
 
 production:
   adapter: postgresql
   encoding: unicode
   database: forcefactory_production
-  pool: 5
-  username: forcefactory
-  password:
+  #pool: 5
+  #username: forcefactory
+  #password:
